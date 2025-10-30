@@ -9,34 +9,34 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
     label: "Optimize our checkout process",
     prompt: "Help me optimize our checkout process to reduce cart abandonment",
-    icon: "sparkles",
+    icon: "circle-question",
   },
   {
     label: "Create LinkedIn content calendar",
     prompt:
       "Create a 30-day LinkedIn content calendar for our B2B SaaS company",
-    icon: "newspaper",
+    icon: "circle-question",
   },
   {
     label: "Set up automated invoicing",
     prompt: "Set up an automated invoicing system for recurring customers",
-    icon: "receipt",
+    icon: "circle-question",
   },
   {
     label: "Design customer onboarding flow",
     prompt: "Design a customer onboarding workflow for our new product",
-    icon: "users",
+    icon: "circle-question",
   },
   {
     label: "Integrate Stripe payments",
     prompt: "Help me integrate Stripe payment processing into our application",
-    icon: "credit-card",
+    icon: "circle-question",
   },
   {
     label: "Plan Q2 product launch",
     prompt:
       "Create a complete project plan for our Q2 product launch with timeline and milestones",
-    icon: "target",
+    icon: "circle-question",
   },
 ];
 
