@@ -7,9 +7,36 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "What can you do?",
-    prompt: "What can you do?",
-    icon: "circle-question",
+    label: "Optimize our checkout process",
+    prompt: "Help me optimize our checkout process to reduce cart abandonment",
+    icon: "arrows-spin",
+  },
+  {
+    label: "Create LinkedIn content calendar",
+    prompt:
+      "Create a 30-day LinkedIn content calendar for our B2B SaaS company",
+    icon: "calendar-days",
+  },
+  {
+    label: "Set up automated invoicing",
+    prompt: "Set up an automated invoicing system for recurring customers",
+    icon: "file-invoice-dollar",
+  },
+  {
+    label: "Design customer onboarding flow",
+    prompt: "Design a customer onboarding workflow for our new product",
+    icon: "user-plus",
+  },
+  {
+    label: "Integrate Stripe payments",
+    prompt: "Help me integrate Stripe payment processing into our application",
+    icon: "credit-card",
+  },
+  {
+    label: "Plan Q2 product launch",
+    prompt:
+      "Create a complete project plan for our Q2 product launch with timeline and milestones",
+    icon: "rocket",
   },
 ];
 
