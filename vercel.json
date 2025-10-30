@@ -1,9 +1,4 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "version": 2,
-  "functions": {
-    "app/api/create-session/route.ts": {
-      "runtime": "edge"
-    }
-  }
+  "version": 2
 }
